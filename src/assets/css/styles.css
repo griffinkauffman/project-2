@@ -5,13 +5,16 @@ body {
 }
 
 h1 {
-    font-size: 2em;
-    /* shorthand for TOP RIGHT BOTTOM LEFT */
-    /* margin: 1em 0 1.5em 0; */
+    font-size: 3em;
+    font-family: sans-serif
+        /* shorthand for TOP RIGHT BOTTOM LEFT */
+        /* margin: 1em 0 1.5em 0; */
 }
 
 h2 {
     font-size: 1.6em;
+    margin-bottom: 3px;
+    margin top: 3px
 }
 
 h3 {
@@ -31,8 +34,10 @@ p {
 
 header,
 footer {
-    background-color: #777999;
+    background-color: black;
     padding: 2em 0;
+    text-align: center;
+    color: white
 }
 
 .hero {
@@ -45,11 +50,25 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-
-
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: bottom;
+    margin: 20px 0;
+    font-family: cursive;
+    text-decoration: underline overline;
+    text-decoration-color: white;
+    text-decoration-style: wavy
 }
 
 
+
+.item {
+    padding: 20px;
+    align-items: right;
+    max-width: 20px;
+    Margin left: 100px
+}
 
 main {
     margin-bottom: 2em;
