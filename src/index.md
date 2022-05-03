@@ -18,8 +18,8 @@ Surfing originated in Hawaii. These days, people surf all over the world – whe
 
 ## It's good for your mind
 
-
 Surfing requires a sense of focus that can only happen when all the other chatter in your brain quiets down. By turning off the thoughts that ruminate every day, you’re doing your mind a huge favour (while having fun too!) Surfing is as beneficial for the mind as it is for the body. It’s a great way to conquer fears and do something outside your comfort zone that is relaxing and calming for your mind.
 
 
 ## dfdfffdfdffdfdfdfdfdf
+
