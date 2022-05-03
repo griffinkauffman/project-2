@@ -63,11 +63,19 @@ footer {
 }
 
 .container {
+    /*    BEN: add clear so it drops below the content above */
+    clear: both;
+
     display: grid;
     grid-template-columns: 50% 50%;
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+}
+
+/*BEN: set a max width on the images so they don't break outside the image grid'*/
+.container img {
+    max-width: 100%;
 }
 
 .item {
@@ -79,7 +87,16 @@ footer {
     font-size: 40px;
     font-family: sans-serif;
 
+    /*    BEN: add clear so it drops below the floated image */
+    clear: both;
 }
+
+/*BEN: this will position the first image in the index.md file to the left*/
+.main-content img:first-of-type {
+    float: left;
+    padding-right: 1em;
+}
+
 
 .item2 {
     float: left;
