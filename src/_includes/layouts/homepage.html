@@ -7,12 +7,13 @@ layout: base
 </div>
 
 <div class="main-content">
+    <!--    all we want in here is the content from the index.md file-->
     {{ content }}
+</div>
 
-    <div class="item">
-        <img src="/assets/images/wave2.jpg">
-    </div>
-
+<!--move this image so it isn't in the main content to ensure it renders properly-->
+<div class="item">
+    <img src="/assets/images/wave2.jpg">
 </div>
 
 <div class="container">
@@ -26,7 +27,8 @@ layout: base
 
 
     <div class="item2">
-        <img src="/assets/images/wave3.jpg">
+        <!--        put this image in the index.md file instead-->
+        <!--        <img src="/assets/images/wave3.jpg">-->
 
 
     </div>
