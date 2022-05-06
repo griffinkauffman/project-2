@@ -1,28 +1,4 @@
-# 11056-project2
 
-## 11056 Project 2 Starter
+Reflection:
 
-This is repo containing everything you need to start Project 2. All you need to do is clone this repository to your computer and start editing...
-
-Make sure you refer to Canvas for more info.
-
-## Install Elventy
-From Terminal, navigate to the folder you saved the repository in:
-
-Type `npm create`
-
-or, if that doesn't work: `npm install --save-dev @11ty/eleventy`
-
-## Test your site
-
-Open Terminal and type: `npm start`
-
-This will create a local server to test the website.
-
-Go to: http://localhost:8080 to view your site
-
-## Build the site
-
-Run `npm build`
-
-Open up your site folder and you'll discover a folder within it called `final-website` this is where your actual site files are located. 
+Although I struggled a little with this assignment, I am happy with what I produced considering the circumstances. I did struggle a little getting my head around how the code is broken up into segments: header, footer, homepage, base. For me I found it a lot easier in the first assignment, working with just the CSS and the html pages for each web page. My confusion is probably seen in my code, as i have images coded in the wrong parts, not in the index.md. Even though technically my code is probably not sound, I am happy with the layout of my website. My production process involved setting up a simple layout on paper, then trying to achieve this in my code. Once I started my project, the process mainly involved research code, test, and repeat. My aim was to do a hero image, as well as an image grid, and I was successful with this.  In the future I hope to build on the knowledge I have gained in this course and throughout this assignment.

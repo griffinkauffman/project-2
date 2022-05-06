@@ -15,7 +15,7 @@ h2 {
     font-size: 1.6em;
     margin-bottom: 3px;
     margin top: 3px;
-    text-decoration: underline
+    
 }
 
 h3 {
@@ -63,14 +63,20 @@ footer {
 }
 
 .container {
+     clear: both;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 }
+.container img {
+    max-width: 100%;
+}
+
 
 .item {
+     clear: both;
     padding: 20px;
     color: #fff;
     display: flex;
@@ -81,8 +87,14 @@ footer {
 
 }
 
+.main-content img:first-of-type {
+    float: left;
+    padding-right: 1em;
+}
+
 .item2 {
     float: left;
+     clear: both;
 
 }
 
