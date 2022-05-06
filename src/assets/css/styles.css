@@ -63,13 +63,7 @@ footer {
 }
 
 .container {
-<<<<<<< HEAD
      clear: both;
-=======
-    /*    BEN: add clear so it drops below the content above */
-    clear: both;
-
->>>>>>> d6ed8ee158b9b458a388d526d1d57c9979f39a61
     display: grid;
     grid-template-columns: 50% 50%;
     grid-row: auto auto;
@@ -81,11 +75,6 @@ footer {
 }
 
 
-/*BEN: set a max width on the images so they don't break outside the image grid'*/
-.container img {
-    max-width: 100%;
-}
-
 .item {
      clear: both;
     padding: 20px;
@@ -96,23 +85,13 @@ footer {
     font-size: 40px;
     font-family: sans-serif;
 
-    /*    BEN: add clear so it drops below the floated image */
-    clear: both;
 }
 
-<<<<<<< HEAD
-=======
-/*BEN: this will position the first image in the index.md file to the left*/
->>>>>>> d6ed8ee158b9b458a388d526d1d57c9979f39a61
 .main-content img:first-of-type {
     float: left;
     padding-right: 1em;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d6ed8ee158b9b458a388d526d1d57c9979f39a61
 .item2 {
     float: left;
      clear: both;
